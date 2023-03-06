@@ -9,7 +9,7 @@ def time():
     lable.config(text=string)
     lable.after(1000,time)
 
-lable= Label(root, font=('Arial', 80), background='Yellow', foreground='Black')
+lable= Label(root, font=('Arial', 80), background='Green', foreground='Black')
 lable.pack(anchor = 'center')
 
 time()
